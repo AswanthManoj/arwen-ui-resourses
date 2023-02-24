@@ -1,0 +1,38 @@
+.textbox1-light {
+    background-color: #f0f0f0;
+    background: linear-gradient(to left top, #dcdcdc,#f0f0f0);
+    color: #777;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 5px 5px 8px #c5c7d3, 
+                inset -5px -5px 8px #ffffff;
+    padding: 0.7em 0.7em;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.textbox1-light:hover {
+    box-shadow: 12px 12px 16px #aeaec0, 
+                -8px -8px 12px #ffffff;
+    transition: all .8s;
+}
+
+.textbox1-dark {
+background: linear-gradient(to top left, #101415, #0b1614);
+color: #defefa;
+width: 300px;
+border: none;
+border-radius: 8px;
+box-shadow: inset 5px 5px 8px #000000cb, 
+            inset -5px -5px 8px #5eb9a755;
+padding: 0.7em 0.7em;
+outline: none;
+font-size: 18px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.textbox1-dark:hover {
+box-shadow: 12px 12px 16px #000000cb, 
+            -8px -8px 12px #5eb9a755;
+transition: all .8s;
+}
